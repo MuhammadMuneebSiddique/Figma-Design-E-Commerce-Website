@@ -168,9 +168,9 @@ export default function Main(){
                     </div>
                 </div>
                 <div className={css.downside}>
-                    {catagory.map((elem)=>{
+                    {catagory.map((elem,index)=>{
                         return(
-                            <div>
+                            <div key={index}>
                                 <img src={elem.image} width={0} height={0} alt={elem.alt}/>
                                 <h4>{elem.catagoryName}</h4>
                             </div>
@@ -185,9 +185,9 @@ export default function Main(){
                     <Link href=""><h5>featured product</h5></Link>
                 </div>
                 <div className={css.container}>
-                    {products.map((elem)=>{
+                    {products.map((elem,index)=>{
                         return(
-                        <div className={css.item}>
+                        <div className={css.item} key={index}>
                             <div>
                                 <Image src={heart} alt="icon"/>
                             </div>
@@ -239,9 +239,9 @@ export default function Main(){
                     <h2>Discounts up to -50%</h2>    
                 </div>    
                 <div className={css.discount_item}>               
-                    {discount_item.map((elem)=>{
+                    {discount_item.map((elem,index)=>{
                         return(
-                                <div className={css.item}>
+                                <div className={css.item} key={index}>
                                     <div>
                                     <Image src={heart} alt="icon"/>
                                     </div>
