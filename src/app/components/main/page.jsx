@@ -136,7 +136,7 @@ export default function Main(){
                             <Image src={headphone} alt="image"/>
                             <div>
                                 <h3>Apple <br />AirPods <br /> <span>Max</span></h3>
-                                <p>Computational audio. Listen, it's powerful</p>
+                                <p>Computational audio. Listen, its powerful</p>
                             </div>
                         </div>
                         <div className={css.box2}>
