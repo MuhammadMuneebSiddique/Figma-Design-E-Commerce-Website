@@ -885,7 +885,6 @@
 @media (width < 520px) {
     body .section_05{
         font-size: 6px;
-        animation: animate 5s linear infinite;
         & .container_1{
             position: relative;
             width: 100%;
